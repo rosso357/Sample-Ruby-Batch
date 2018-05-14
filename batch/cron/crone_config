@@ -1,0 +1,16 @@
+クーロンの設定手順です
+
+<参考サイト>
+http://vdeep.net/cron-shell-ruby
+
+<実行した手順>
+1.コマンドで実行権限をつけます
+　chmod +x /Users/rosso357/IdeaProjects/RubySampleBatch/batch/move_file_batch.rb
+
+2.プログラムをcronに登録するために「crontab -e」コマンドを使います
+　crontab -e
+
+3.10分置きにバッチを動かすので、次のように記述しました。バッチが動いた際にBatchLog.txtファイルを上書きします。
+　*/10 * * * * /Users/rosso357/IdeaProjects/RubySampleBatch/batch/sample2/BatchLog.txt
+
+以上です。
