@@ -11,6 +11,5 @@ http://vdeep.net/cron-shell-ruby
 　crontab -e
 
 3.10分置きにバッチを動かすので、次のように記述しました。バッチが動いた際にBatchLog.txtファイルを上書きします。
-　*/10 * * * * /Users/rosso357/IdeaProjects/RubySampleBatch/batch/sample2/BatchLog.txt
-
+  */10 * * * * echo `date +'\%Y\%m\%d \%H\%M\%S'` > /Users/rosso357/IdeaProjects/RubySampleBatch/batch/sample2/BatchLog.txt
 以上です。

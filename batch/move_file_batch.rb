@@ -2,21 +2,29 @@
 # @author Igari.
 class Move_File_Batch
 
-  #sample1にsample.txtファイルを作成する
-  Dir::chdir('.')
-  open('sample.txt', 'w'){|f|
-    f.puts 'hoge'
-  }
+  Dir::chdir('sample1')
 
-  #ファイルを移動させる
+  #ファイルを移動させる.
   def file_move
     require 'fileutils'
-    FileUtils.mv('sample.txt', 'sample2')
-
-    #ファイルが移動できているか確認
-    if p FileTest.exists?('sample2/sample.txt')
-      puts '正常にファイル移動が完了しています。'
+    Dir.glob('*').each do |filename|  #sample1内のファイルの数だけループさせる.
+      FileUtils.mv(filename, "../sample2/") #sample1からsample2にファイルを移動.
     end
+
+    #file_moveメソッドの例外処理
+    rescue SyntaxError
+      puts "構文ミスです.ファイル移動が完了していません。"
+    rescue Exception
+      puts "ファイル移動が完了していません。"
+  end
+
+
+  #ファイルが移動が完了しているか確認
+  puts Dir::pwd
+  if p FileTest.exists?('*') == false #sample1にファイルが存在していない場合.
+    puts "ファイル移動が完了しました。"
+  else
+    raise SyntaxError.new( "ファイル移動が完了していません。" )
   end
 end
 
