@@ -24,7 +24,7 @@ class Move_File_Batch
   #ファイルが移動が完了しているか確認
   puts Dir::pwd
   #sample1にファイルが存在していない場合.
-  if p FileTest.exists?('*') == false
+  if FileTest.exists?('*') == false
     puts "ファイル移動が完了しました。"
   else
     raise SyntaxError.new( "file_moveメソッドのループ処理が間違っています。" )
