@@ -62,9 +62,43 @@ class GetCustomerCsv
       p ex.backtrace # 例外発生の位置情報
       p "#{ex.class}が発生しました。CSVファイルを保存できていません。"
     end
-   end
+  end
+
+  #ログを出力させる
+  def logger
+    require 'logger'
+
+    # ログオブジェクトを生成
+    #!/usr/bin/env ruby
+
+    require 'logger'
+
+    log = Logger.new('./filescan.log')
+
+    log.debug('debug')
+    log.info('info')
+    log.warn('warn')
+    log.error('error')
+    log.fatal('fatal')
+    log.unknown('='*80)
+    log.level=Logger::INFO
+    log.debug('debug')
+    log.info('info')
+    log.warn('warn')
+    log.error('error')
+    log.fatal('fatal')
+    log.unknown('='*80)
+    log.level=Logger::FATAL
+    log.debug('debug')
+    log.info('info')
+    log.warn('warn')
+    log.error('error')
+    log.fatal('fatal')
+    log.unknown('+'*80)
+  end
 end
 
 #実行する
 as = GetCustomerCsv.new
 as.get_costomers
+as.logger
