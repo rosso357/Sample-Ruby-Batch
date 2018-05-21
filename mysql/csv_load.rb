@@ -2,7 +2,7 @@
 class CSV
   # require 'mysql2'
   require 'csv'
-  require '../vendor/bundle/ruby/2.4.0/gems/mysql2-0.5.1/lib/mysql2'
+  require 'mysql2'
 
 
   def get_costomers
@@ -28,26 +28,33 @@ class CSV
      puts response
 
 
-      #顧客情報をCSV形式に変換する
-      csv_data = CSV.generate("#{table_data}", :headers => header, :write_headers => true) do |csv|
-      # ヘッダーを追加する
-      csv << header
-      #顧客情報を追加していく
-      response.each do |row|
-        csv << [row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7]]
-      end
-
-      #顧客情報を全件出力する（検証用）
-      puts csv
-
-      #変換したCSVデータをファイルに書き込みます。
-            CSV.open("#{filepath}.csv", "w:Windows-31J", undef: :replace) do |file|
-              file.write(csv_data)
-       end
-   end
+   #    #顧客情報をCSV形式に変換する
+   #    csv_data = CSV.generate("#{table_data}", :headers => header, :write_headers => true) do |csv|
+   #    # ヘッダーを追加する
+   #    csv << header
+   #    #顧客情報を追加していく
+   #    response.each do |row|
+   #      csv << [row[0],
+   #              row[1],
+   #              row[2],
+   #              row[3],
+   #              row[4],
+   #              row[5],
+   #              row[6],
+   #              row[7]]
+   #    end
+   #
+   #    #顧客情報を全件出力する（検証用）
+   #    puts csv
+   #
+   #    #変換したCSVデータをファイルに書き込みます。
+   #          CSV.open("#{filepath}.csv", "w:Windows-31J", undef: :replace) do |file|
+   #            file.write(csv_data)
+   #     end
+   # end
   end
 end
 
 #実行する
 as = CSV.new
-as.getCostomers
+as.get_costomers
