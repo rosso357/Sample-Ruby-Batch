@@ -1,6 +1,6 @@
 have_func: checking for rb_absint_size()... -------------------- yes
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -11,7 +11,7 @@ checked program was:
 6: }
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -33,7 +33,7 @@ checked program was:
 
 have_func: checking for rb_absint_singlebit_p()... -------------------- yes
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -55,7 +55,7 @@ checked program was:
 
 have_func: checking for rb_wait_for_single_fd()... -------------------- yes
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
 conftest.c:13:57: error: use of undeclared identifier 'rb_wait_for_single_fd'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
                                                         ^
@@ -77,7 +77,7 @@ checked program was:
 13: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib     -lruby-static -framework Foundation  -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -100,7 +100,7 @@ checked program was:
 
 have_header: checking for mysql.h... -------------------- yes
 
-"clang -E -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+"clang -E -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -112,7 +112,7 @@ checked program was:
 
 have_header: checking for errmsg.h... -------------------- yes
 
-"clang -E -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+"clang -E -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -124,7 +124,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_DISABLED in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -140,7 +140,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_PREFERRED in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -156,7 +156,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_REQUIRED in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -172,7 +172,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_VERIFY_CA in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -188,7 +188,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_VERIFY_IDENTITY in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -204,7 +204,7 @@ checked program was:
 
 have_struct_member: checking for MYSQL.net.vio in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -223,7 +223,7 @@ checked program was:
 
 have_struct_member: checking for MYSQL.net.pvio in mysql.h... -------------------- no
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 conftest.c:6:35: error: no member named 'pvio' in 'struct st_net'; did you mean 'vio'?
 int s = (char *)&((MYSQL*)0)->net.pvio - (char *)0;
                                   ^~~~
@@ -250,7 +250,7 @@ checked program was:
 
 have_const: checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -266,7 +266,7 @@ checked program was:
 
 have_const: checking for SERVER_QUERY_NO_GOOD_INDEX_USED in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -282,7 +282,7 @@ checked program was:
 
 have_const: checking for SERVER_QUERY_NO_INDEX_USED in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -298,7 +298,7 @@ checked program was:
 
 have_const: checking for SERVER_QUERY_WAS_SLOW in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -314,7 +314,7 @@ checked program was:
 
 have_const: checking for MYSQL_OPTION_MULTI_STATEMENTS_ON in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -330,7 +330,7 @@ checked program was:
 
 have_const: checking for MYSQL_OPTION_MULTI_STATEMENTS_OFF in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -346,7 +346,7 @@ checked program was:
 
 have_type: checking for my_bool in mysql.h... -------------------- yes
 
-"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -360,7 +360,7 @@ checked program was:
 
 --------------------
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Weverything -lpthread -lgmp -ldl -lobjc "
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Weverything -lpthread -lgmp -ldl -lobjc "
 In file included from conftest.c:1:
 In file included from /Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby.h:33:
 In file included from /Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/ruby.h:24:
@@ -472,9 +472,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-bad-function-cast -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-bad-function-cast -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -482,9 +480,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-conditional-uninitialized -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-conditional-uninitialized -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -492,9 +488,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-covered-switch-default -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-covered-switch-default -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -502,9 +496,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-declaration-after-statement -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-declaration-after-statement -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -512,9 +504,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-disabled-macro-expansion -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-disabled-macro-expansion -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -522,9 +512,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-documentation-unknown-command -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-documentation-unknown-command -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -532,9 +520,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-missing-field-initializers -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-missing-field-initializers -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -542,9 +528,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-missing-variable-declarations -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-missing-variable-declarations -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -552,9 +536,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-padded -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-padded -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -562,9 +544,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-reserved-id-macro -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-reserved-id-macro -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -572,9 +552,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-sign-conversion -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-sign-conversion -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -582,9 +560,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-static-in-inline -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-static-in-inline -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -592,9 +568,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-switch-enum -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-switch-enum -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -602,9 +576,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-undef -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-undef -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -612,9 +584,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-unreachable-code -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-unreachable-code -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -622,9 +592,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-used-but-marked-unused -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation -Werror -Wno-used-but-marked-unused -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -632,9 +600,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/rosso357/.rbenv/versions/2.4.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT  conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation  -Wl,-rpath,/usr/local/Cellar/mysql/5.7.21/lib -lpthread -lgmp -ldl -lobjc "
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+"clang -o conftest -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/x86_64-darwin17 -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0/ruby/backward -I/Users/rosso357/.rbenv/versions/2.4.4/include/ruby-2.4.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/usr/local/opt/openssl/include  -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT -Wno-bad-function-cast -Wno-conditional-uninitialized -Wno-covered-switch-default -Wno-declaration-after-statement -Wno-disabled-macro-expansion -Wno-documentation-unknown-command -Wno-missing-field-initializers -Wno-missing-variable-declarations -Wno-padded -Wno-reserved-id-macro -Wno-sign-conversion -Wno-static-in-inline -Wno-switch-enum -Wno-undef -Wno-unreachable-code -Wno-used-but-marked-unused conftest.c  -L. -L/Users/rosso357/.rbenv/versions/2.4.4/lib -L/usr/local/opt/openssl/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby-static -framework Foundation  -Wl,-rpath,/usr/local/Cellar/mysql/5.7.21/lib -lpthread -lgmp -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"

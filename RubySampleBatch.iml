@@ -3,10 +3,33 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vender/bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
     </content>
     <orderEntry type="jdk" jdkName="rbenv: 2.4.4" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="highline (vbundled(1.7.10)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/highline-1.7.10/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/highline-1.7.10/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql2 (vbundled(0.5.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/mysql2-0.5.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/mysql2-0.5.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.2, rbenv: 2.4.4) [gem]" level="application" />
   </component>
 </module>
